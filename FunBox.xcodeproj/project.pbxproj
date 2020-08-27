@@ -3,29 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1179B64E1D690F72FBEE6C /* Pods_FunBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BEE7E33726D2F381C8682 /* Pods_FunBox.framework */; };
 		DF5CC26D24E5A6F600A6221A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC26C24E5A6F600A6221A /* AppDelegate.swift */; };
 		DF5CC26F24E5A6F600A6221A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC26E24E5A6F600A6221A /* SceneDelegate.swift */; };
-		DF5CC27124E5A6F600A6221A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC27024E5A6F600A6221A /* ViewController.swift */; };
-		DF5CC27424E5A6F600A6221A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC27224E5A6F600A6221A /* Main.storyboard */; };
+		DF5CC27124E5A6F600A6221A /* StoreFrontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC27024E5A6F600A6221A /* StoreFrontVC.swift */; };
 		DF5CC27724E5A6F600A6221A /* FunBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC27524E5A6F600A6221A /* FunBox.xcdatamodeld */; };
 		DF5CC27924E5A6F800A6221A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC27824E5A6F800A6221A /* Assets.xcassets */; };
 		DF5CC27C24E5A6F800A6221A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC27A24E5A6F800A6221A /* LaunchScreen.storyboard */; };
+		DF5CC28424E5A70600A6221A /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = DF5CC28324E5A70600A6221A /* data.csv */; };
+		DF5CC28624E5BC5600A6221A /* BackEndVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC28524E5BC5600A6221A /* BackEndVC.swift */; };
+		DF5CC28A24E5C48A00A6221A /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC28924E5C48A00A6221A /* AddVC.swift */; };
+		DF5CC28D24E83DC000A6221A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC28C24E83DC000A6221A /* UIViewController+Extensions.swift */; };
+		DF5CC29024E84C4A00A6221A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC28F24E84C4A00A6221A /* Article.swift */; };
+		DF5CC29324E8520C00A6221A /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC29224E8520C00A6221A /* SelfConfiguringCell.swift */; };
+		DF5CC29524E8523A00A6221A /* StoreFrontCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC29424E8523A00A6221A /* StoreFrontCell.swift */; };
+		DF5CC29924EAE89200A6221A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC29824EAE89200A6221A /* UIView+Extensions.swift */; };
+		DF5CC29B24EB1AA500A6221A /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC29A24EB1AA500A6221A /* UICollectionViewCell+Extensions.swift */; };
+		DF5CC29E24EB1E5E00A6221A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC29D24EB1E5E00A6221A /* CustomButton.swift */; };
+		DF5CC2A024EC240300A6221A /* BackEndCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC29F24EC240300A6221A /* BackEndCell.swift */; };
+		DF5CC2AF24F0169500A6221A /* HostTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC2AE24F0169500A6221A /* HostTabBarVC.swift */; };
+		DF5CC2B124F2A80700A6221A /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC2B024F2A80700A6221A /* EditVC.swift */; };
+		DF5CC2B324F2DAB400A6221A /* Notification.Name+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC2B224F2DAB400A6221A /* Notification.Name+Extensions.swift */; };
+		DF5CC2B624F5A9F300A6221A /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC2B524F5A9F300A6221A /* CSVParser.swift */; };
+		DF5CC2B824F5BA8300A6221A /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC2B724F5BA8300A6221A /* ParsingService.swift */; };
+		DF74A0D724F5BE1200DF692D /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF74A0D624F5BE1200DF692D /* JSONParser.swift */; };
+		DF74A0D924F5C04400DF692D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DF74A0D824F5C04400DF692D /* data.json */; };
+		DF74A0DB24F5C81000DF692D /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = DF74A0DA24F5C81000DF692D /* data.xml */; };
+		DF74A0DD24F5C8E400DF692D /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF74A0DC24F5C8E400DF692D /* XMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B5BEE7E33726D2F381C8682 /* Pods_FunBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F1E7ED4615875C1B2C92B0 /* Pods-FunBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunBox.release.xcconfig"; path = "Target Support Files/Pods-FunBox/Pods-FunBox.release.xcconfig"; sourceTree = "<group>"; };
 		DF5CC26924E5A6F600A6221A /* FunBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5CC26C24E5A6F600A6221A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5CC26E24E5A6F600A6221A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF5CC27024E5A6F600A6221A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF5CC27324E5A6F600A6221A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5CC27024E5A6F600A6221A /* StoreFrontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFrontVC.swift; sourceTree = "<group>"; };
 		DF5CC27624E5A6F600A6221A /* FunBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunBox.xcdatamodel; sourceTree = "<group>"; };
 		DF5CC27824E5A6F800A6221A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF5CC27B24E5A6F800A6221A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF5CC27D24E5A6F800A6221A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5CC28324E5A70600A6221A /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		DF5CC28524E5BC5600A6221A /* BackEndVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackEndVC.swift; sourceTree = "<group>"; };
+		DF5CC28924E5C48A00A6221A /* AddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		DF5CC28C24E83DC000A6221A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		DF5CC28F24E84C4A00A6221A /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DF5CC29224E8520C00A6221A /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		DF5CC29424E8523A00A6221A /* StoreFrontCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFrontCell.swift; sourceTree = "<group>"; };
+		DF5CC29824EAE89200A6221A /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DF5CC29A24EB1AA500A6221A /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		DF5CC29D24EB1E5E00A6221A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DF5CC29F24EC240300A6221A /* BackEndCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackEndCell.swift; sourceTree = "<group>"; };
+		DF5CC2AE24F0169500A6221A /* HostTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTabBarVC.swift; sourceTree = "<group>"; };
+		DF5CC2B024F2A80700A6221A /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		DF5CC2B224F2DAB400A6221A /* Notification.Name+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extensions.swift"; sourceTree = "<group>"; };
+		DF5CC2B524F5A9F300A6221A /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		DF5CC2B724F5BA8300A6221A /* ParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
+		DF74A0D624F5BE1200DF692D /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		DF74A0D824F5C04400DF692D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DF74A0DA24F5C81000DF692D /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
+		DF74A0DC24F5C8E400DF692D /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		EB3429E4B135C27EAA3487B1 /* Pods-FunBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunBox.debug.xcconfig"; path = "Target Support Files/Pods-FunBox/Pods-FunBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1179B64E1D690F72FBEE6C /* Pods_FunBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518447B66956E3F65E59914A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB3429E4B135C27EAA3487B1 /* Pods-FunBox.debug.xcconfig */,
+				D0F1E7ED4615875C1B2C92B0 /* Pods-FunBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD1441732589128030016D6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5BEE7E33726D2F381C8682 /* Pods_FunBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF5CC26024E5A6F600A6221A = {
 			isa = PBXGroup;
 			children = (
 				DF5CC26B24E5A6F600A6221A /* FunBox */,
 				DF5CC26A24E5A6F600A6221A /* Products */,
+				518447B66956E3F65E59914A /* Pods */,
+				BD1441732589128030016D6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +120,91 @@
 		DF5CC26B24E5A6F600A6221A /* FunBox */ = {
 			isa = PBXGroup;
 			children = (
+				DF74A0DE24F6DFC800DF692D /* Controllers */,
+				DF74A0DF24F6DFF200DF692D /* Data */,
+				DF5CC28B24E83D5900A6221A /* Extensions */,
+				DF5CC28E24E84C1500A6221A /* Model */,
+				DF5CC2B424F55FC600A6221A /* Parsers */,
+				DF5CC2A724EF240900A6221A /* Views */,
 				DF5CC26C24E5A6F600A6221A /* AppDelegate.swift */,
 				DF5CC26E24E5A6F600A6221A /* SceneDelegate.swift */,
-				DF5CC27024E5A6F600A6221A /* ViewController.swift */,
-				DF5CC27224E5A6F600A6221A /* Main.storyboard */,
-				DF5CC27824E5A6F800A6221A /* Assets.xcassets */,
 				DF5CC27A24E5A6F800A6221A /* LaunchScreen.storyboard */,
 				DF5CC27D24E5A6F800A6221A /* Info.plist */,
+				DF5CC27824E5A6F800A6221A /* Assets.xcassets */,
 				DF5CC27524E5A6F600A6221A /* FunBox.xcdatamodeld */,
 			);
 			path = FunBox;
+			sourceTree = "<group>";
+		};
+		DF5CC28B24E83D5900A6221A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC28C24E83DC000A6221A /* UIViewController+Extensions.swift */,
+				DF5CC29824EAE89200A6221A /* UIView+Extensions.swift */,
+				DF5CC29A24EB1AA500A6221A /* UICollectionViewCell+Extensions.swift */,
+				DF5CC2B224F2DAB400A6221A /* Notification.Name+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF5CC28E24E84C1500A6221A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC28F24E84C4A00A6221A /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF5CC29124E851FD00A6221A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC29224E8520C00A6221A /* SelfConfiguringCell.swift */,
+				DF5CC29424E8523A00A6221A /* StoreFrontCell.swift */,
+				DF5CC29F24EC240300A6221A /* BackEndCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DF5CC2A724EF240900A6221A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC29D24EB1E5E00A6221A /* CustomButton.swift */,
+				DF5CC29124E851FD00A6221A /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF5CC2B424F55FC600A6221A /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC2B724F5BA8300A6221A /* ParsingService.swift */,
+				DF5CC2B524F5A9F300A6221A /* CSVParser.swift */,
+				DF74A0DC24F5C8E400DF692D /* XMLParser.swift */,
+				DF74A0D624F5BE1200DF692D /* JSONParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		DF74A0DE24F6DFC800DF692D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC2AE24F0169500A6221A /* HostTabBarVC.swift */,
+				DF5CC27024E5A6F600A6221A /* StoreFrontVC.swift */,
+				DF5CC28524E5BC5600A6221A /* BackEndVC.swift */,
+				DF5CC2B024F2A80700A6221A /* EditVC.swift */,
+				DF5CC28924E5C48A00A6221A /* AddVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF74A0DF24F6DFF200DF692D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CC28324E5A70600A6221A /* data.csv */,
+				DF74A0D824F5C04400DF692D /* data.json */,
+				DF74A0DA24F5C81000DF692D /* data.xml */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5CC28024E5A6F800A6221A /* Build configuration list for PBXNativeTarget "FunBox" */;
 			buildPhases = (
+				02A6E958BAF9EB2842B13BA7 /* [CP] Check Pods Manifest.lock */,
 				DF5CC26524E5A6F600A6221A /* Sources */,
 				DF5CC26624E5A6F600A6221A /* Frameworks */,
 				DF5CC26724E5A6F600A6221A /* Resources */,
+				3CAA73E6EC6DB957E5E9401D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,37 +267,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5CC28424E5A70600A6221A /* data.csv in Resources */,
+				DF74A0DB24F5C81000DF692D /* data.xml in Resources */,
 				DF5CC27C24E5A6F800A6221A /* LaunchScreen.storyboard in Resources */,
 				DF5CC27924E5A6F800A6221A /* Assets.xcassets in Resources */,
-				DF5CC27424E5A6F600A6221A /* Main.storyboard in Resources */,
+				DF74A0D924F5C04400DF692D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A6E958BAF9EB2842B13BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CAA73E6EC6DB957E5E9401D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunBox/Pods-FunBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunBox/Pods-FunBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunBox/Pods-FunBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF5CC26524E5A6F600A6221A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF5CC27124E5A6F600A6221A /* ViewController.swift in Sources */,
+				DF5CC2B824F5BA8300A6221A /* ParsingService.swift in Sources */,
+				DF5CC29B24EB1AA500A6221A /* UICollectionViewCell+Extensions.swift in Sources */,
+				DF74A0D724F5BE1200DF692D /* JSONParser.swift in Sources */,
+				DF5CC27124E5A6F600A6221A /* StoreFrontVC.swift in Sources */,
+				DF5CC29024E84C4A00A6221A /* Article.swift in Sources */,
+				DF5CC2B324F2DAB400A6221A /* Notification.Name+Extensions.swift in Sources */,
+				DF5CC2A024EC240300A6221A /* BackEndCell.swift in Sources */,
+				DF5CC28A24E5C48A00A6221A /* AddVC.swift in Sources */,
+				DF5CC2B124F2A80700A6221A /* EditVC.swift in Sources */,
 				DF5CC27724E5A6F600A6221A /* FunBox.xcdatamodeld in Sources */,
+				DF5CC28D24E83DC000A6221A /* UIViewController+Extensions.swift in Sources */,
+				DF5CC29924EAE89200A6221A /* UIView+Extensions.swift in Sources */,
+				DF74A0DD24F5C8E400DF692D /* XMLParser.swift in Sources */,
+				DF5CC2B624F5A9F300A6221A /* CSVParser.swift in Sources */,
+				DF5CC29E24EB1E5E00A6221A /* CustomButton.swift in Sources */,
 				DF5CC26D24E5A6F600A6221A /* AppDelegate.swift in Sources */,
+				DF5CC29324E8520C00A6221A /* SelfConfiguringCell.swift in Sources */,
 				DF5CC26F24E5A6F600A6221A /* SceneDelegate.swift in Sources */,
+				DF5CC28624E5BC5600A6221A /* BackEndVC.swift in Sources */,
+				DF5CC2AF24F0169500A6221A /* HostTabBarVC.swift in Sources */,
+				DF5CC29524E8523A00A6221A /* StoreFrontCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF5CC27224E5A6F600A6221A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF5CC27324E5A6F600A6221A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF5CC27A24E5A6F800A6221A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,10 +478,13 @@
 		};
 		DF5CC28124E5A6F800A6221A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3429E4B135C27EAA3487B1 /* Pods-FunBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNJ44D2ZPR;
 				INFOPLIST_FILE = FunBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,16 +492,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Denis-Prozukin.FunBox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF5CC28224E5A6F800A6221A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F1E7ED4615875C1B2C92B0 /* Pods-FunBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNJ44D2ZPR;
 				INFOPLIST_FILE = FunBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Denis-Prozukin.FunBox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

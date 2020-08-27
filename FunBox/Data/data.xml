@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+		<element>
+				<name>Apple iPod touch 5 32Gb</name>
+				<price>8888</price>
+				<quantity>5</quantity>
+		</element>
+		<element>
+				<name>Samsung Galaxy S Duos S7562</name>
+				<price>7230</price>
+				<quantity>2</quantity>
+		</element>
+		<element>
+				<name>Canon EOS 600D Kit</name>
+				<price>15659</price>
+				<quantity>4</quantity>
+		</element>
+		<element>
+				<name>Samsung Galaxy Tab 2 10.1 P5100 16Gb</name>
+				<price>13290</price>
+				<quantity>9</quantity>
+		</element>
+		<element>
+				<name>PocketBook Touch</name>
+				<price>5197</price>
+				<quantity>2</quantity>
+		</element>
+		<element>
+				<name>Samsung Galaxy Note II 16Gb</name>
+				<price>17049.5</price>
+				<quantity>2</quantity>
+		</element>
+		<element>
+				<name>Nikon D3100 Kit</name>
+				<price>12190</price>
+				<quantity>4</quantity>
+		</element>
+		<element>
+				<name>Canon EOS 1100D Kit</name>
+				<price>10985</price>
+				<quantity>2</quantity>
+		</element>
+		<element>
+				<name>Sony Xperia acro S</name>
+				<price>11800.99</price>
+				<quantity>1</quantity>
+		</element>
+		<element>
+				<name>Lenovo G580</name>
+				<price>8922</price>
+				<quantity>1</quantity>
+		</element>
+</root>

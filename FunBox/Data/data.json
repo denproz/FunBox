@@ -1,0 +1,52 @@
+[
+		{
+				"name": "Apple iPod touch 5 32Gb",
+				"price": 8888,
+				"quantity": 5
+		},
+		{
+				"name": "Samsung Galaxy S Duos S7562",
+				"price": 7230,
+				"quantity": 2
+		},
+		{
+				"name": "Canon EOS 600D Kit",
+				"price": 15659,
+				"quantity": 4
+		},
+		{
+				"name": "Samsung Galaxy Tab 2 10.1 P5100 16Gb",
+				"price": 13290,
+				"quantity": 9
+		},
+		{
+				"name": "PocketBook Touch",
+				"price": 5197,
+				"quantity": 2
+		},
+		{
+				"name": "Samsung Galaxy Note II 16Gb",
+				"price": 17049.50,
+				"quantity": 2
+		},
+		{
+				"name": "Nikon D3100 Kit",
+				"price": 12190,
+				"quantity": 4
+		},
+		{
+				"name": "Canon EOS 1100D Kit",
+				"price": 10985,
+				"quantity": 2
+		},
+		{
+				"name": "Sony Xperia acro S",
+				"price": 11800.99,
+				"quantity": 1
+		},
+		{
+				"name": "Lenovo G580",
+				"price": 8922,
+				"quantity": 1
+		}
+]
