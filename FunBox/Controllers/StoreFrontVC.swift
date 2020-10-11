@@ -125,7 +125,6 @@ extension StoreFrontVC {
 			make.leading.equalToSuperview().offset(16)
 			make.trailing.equalToSuperview().offset(-16)
 			make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-16)
-			make.top.greaterThanOrEqualTo(storeFrontCollectionView.visibleCells.first!.snp.bottom).offset(8)
 			make.height.lessThanOrEqualTo(50).priority(.medium)
 		}
 	}
